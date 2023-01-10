@@ -34,8 +34,7 @@ def but():
         'Mozilla/5.0 (BB10; Kbd) AppleWebKit/537.35+ (KHTML, like Gecko) Version/10.3.3.2205 Mobile Safari/537.35+',
 ]
     url = " https://www.instagram.com/api/v1/web/accounts/login/ajax/"
-    #user='issamsr_iso'
-    #password='issamsaralove1226'
+    
     user = input(G+f'Enter usename{R} : ')
     password = input(G+f'Enter Password list{R} : ')
     try:
